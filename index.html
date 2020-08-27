@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Device</title>
+
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="icon" href="img/logo-html.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Main -->
+<header class="main">
+    <div class="container main__container">
+        <div class="main__content">
+            <div class="main__top">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="burger" onclick="MyFunction()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="menu">
+                <div id="menu__inside">
+                    <div class="main__search">
+                        <img src="img/search.svg" alt="search-icon">
+                        <input type="text" placeholder="Поиск по сайту">
+                    </div>
+                    <li class="menu1__item">
+                        <a href="#" class="menu1__link">
+                            <img src="img/icon_user.svg" alt="icon_user">
+                            Войти
+                        </a>
+                    </li>
+                    <li class="menu1__item">
+                        <a href="#" class="menu1__link">
+                            <img src="img/icon_chart.svg" alt="icon_chart">
+                            Сравнить
+                        </a>
+                    </li>
+                    <li class="menu1__item">
+                        <a href="#" class="menu1__link">
+                            <img src="img/icon_cart.svg" alt="icon_cart">
+                            Корзина
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">каталог товаров</a>
+                        <img src="img/icon_plus.svg" alt="icon_plus">
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">доставка</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">гарантия</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">контакты</a>
+                    </li>
+                </div>
+            </div>
+            <div class="main__content-menu1 menu1">
+                <div class="main__search">
+                    <img src="img/search.svg" alt="search-icon">
+                    <input type="text" placeholder="Поиск по сайту">
+                </div>
+
+                <ul class="menu1__list">
+                    <li class="menu1__item">
+                        <a href="#" class="menu1__link">
+                            <img src="img/icon_user.svg" alt="icon_user">
+                            Войти
+                        </a>
+                    </li>
+                    <li class="menu1__item">
+                        <a href="#" class="menu1__link">
+                            <img src="img/icon_chart.svg" alt="icon_chart">
+                            Сравнить
+                        </a>
+                    </li>
+                    <li class="menu1__item">
+                        <a href="#" class="menu1__link">
+                            <img src="img/icon_cart.svg" alt="icon_cart">
+                            Корзина
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main__content-menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">каталог товаров</a>
+                        <img src="img/icon_plus.svg" alt="icon_plus">
+                    </li>
+                </ul>
+
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">доставка</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">гарантия</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main__slider">
+                <div class="main__slider-left">
+                    <div class="main__slider-img">
+                        <img src="img/slider-1.png" alt="slider-1">
+                    </div>
+                </div>
+                <div class="main__slider-right">
+                    <div class="line"></div>
+                    <span class="main__slider-span">01</span>
+                    <div class="main__slider-title">
+                        <p>Делай селфи,
+                            <br>
+                            как Бен Стиллер! </p>
+                    </div>
+                    <div class="main__slider-text">
+                        <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной
+                            и весом всего 5 килограмм.</p>
+                    </div>
+                    <div class="main__slider-elements">
+                        <a class="link" href="#">подробнее</a>
+                        <div class="main__slider-button">
+                            <img src="img/slider-button.png" alt="slider-button">
+                            <img src="img/slider-button-empty.png" alt="slider-button-empty">
+                            <img src="img/slider-button-empty.png" alt="slider-button-empty">
+                        </div>
+                    </div>
+                    <div class="main__slider-specifications">
+                        <div class="main__slider-specifications-list">
+                            <p>8,5 м</p>
+                            <p>Длина палки</p>
+                        </div>
+                        <div class="main__slider-specifications-list">
+                            <p>5 кг</p>
+                            <p>Вес палки</p>
+                        </div>
+                        <div class="main__slider-specifications-list">
+                            <p>Карбон</p>
+                            <p>Материал</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <!-- Popular -->
+<section class="popular">
+    <div class="container">
+        <div class="popular__inner">
+            <div class="popular__post">
+                <div class="popular__post-img">
+                    <img src="img/popular-img.png" alt="popular-img">
+                </div>
+                <p>Виртуальная реальность</p>
+            </div>
+            <div class="popular__post">
+                <div class="popular__post-img">
+                    <img src="img/popular-img2.png" alt="popular-img">
+                </div>
+                <p>Моноподы для селфи</p>
+            </div>
+            <div class="popular__post">
+                <div class="popular__post-img">
+                    <img src="img/popular-img3.png" alt="popular-img">
+                </div>
+                <p>Экшн-камеры</p>
+            </div>
+            <div class="popular__post">
+                <div class="popular__post-img">
+                    <img src="img/popular-img4.png" alt="popular-img">
+                </div>
+                <p>Фитнес-браслеты</p>
+            </div>
+            <div class="popular__post">
+                <div class="popular__post-img">
+                    <img src="img/popular-img5.png" alt="popular-img">
+                </div>
+                <p>Умные часы</p>
+            </div>
+            <div class="popular__post">
+                <div class="popular__post-img">
+                    <img src="img/popular-img6.png" alt="popular-img">
+                </div>
+                <p>Квадрокоптеры</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <!--  Service -->
+<section class="service">
+    <div class="container">
+        <div class="service__inner">
+            <div class="service__navbar">
+                <div class="service__list">
+                    <div class="service__list-item">
+                        <p>доставка</p>
+                    </div>
+                    <div class="service__list-link">
+                        <a class="link" href="#">гарантия</a>
+                    </div>
+                    <div class="service__list-link">
+                        <a class="link" href="#">кредит</a>
+                    </div>
+                </div>
+                <div class="service__list-height"></div>
+            </div>
+            <div class="service__title">
+                <p>Доставка</p>
+                <div class="service__text">Мы с удовольствием доставим ваш товар прямо к вашему 
+                    подъезду совершенно бесплатно! Ведь мы неплохо 
+                    заработаем, поднимая его на ваш этаж.</div>
+            </div>
+            <div class="service__delivery">
+                <img src="img/delivery.png" alt="delivery">
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Logo -->
+<section class="logo-img">
+    <div class="container">
+        <div class="logo-img__inner">
+            <div class="logo-img__image">
+                <img src="img/logo-1.png" alt="">
+            </div>
+            <div class="logo-img__image">
+                <img src="img/logo-2.png" alt="">
+            </div>
+            <div class="logo-img__image">
+                <img src="img/logo-3.png" alt="">
+            </div>
+            <div class="logo-img__image">
+                <img src="img/logo-4.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+        <div class="bottom__body">
+            <div class="bottom__body-container container">
+                <secton class="info two__control">
+    <div class="stripe"></div>
+    <p class="two__control-title">О нас</p>
+    <p class="two__control-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+    <p class="two__control-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+    <ul class="info__list">
+        <li class="info__item">
+            <img src="img/info-list.svg" alt="">
+            <a href="#" class="info__link">Деловые линии</a>
+        </li>
+        <li class="info__item">
+            <img src="img/info-list.svg" alt="">
+            <a href="#" class="info__link">Автотрейдинг</a>
+        </li>
+        <li class="info__item">
+            <img src="img/info-list.svg" alt="">
+            <a href="#" class="info__link">ЖелДорЭкспедиция</a>
+        </li>
+    </ul>
+    <a href="#" class="two__control-link link">подробнее о нас</a>
+</secton>
+                <section class="contact two__control">
+    <div class="stripe"></div>
+    <p class="two__control-title">О нас</p>
+    <p class="two__control-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
+        проверить работоспособность покупки. Всякое бывает.</p>
+    <div class="contact__map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98121.84980531345!2d64.35275791660452!3d39.777647181729606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e65993cd5%3A0xc87beaf40e48e767!2z0JHRg9GF0LDRgNCwLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1598461693987!5m2!1sru!2s"
+            width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <a href="#" class="two__control-link link">подробнее о нас</a>
+</section>
+            </div>
+        </div>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__logo">
+                <svg width="163" height="35" viewBox="0 0 163 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M-0.151001 0.701993V34.302H13.381C15.5624 34.3553 17.7309 33.954 19.7487 33.1235C21.7665 32.2929 23.5892 31.0514 25.101 29.478C26.6506 27.9007 27.8665 26.0273 28.6761 23.9697C29.4857 21.912 29.8724 19.7124 29.813 17.502C29.8724 15.2916 29.4857 13.092 28.6761 11.0343C27.8665 8.97669 26.6506 7.1033 25.101 5.52599C23.5891 3.9527 21.7663 2.7113 19.7486 1.88079C17.7308 1.05028 15.5623 0.648834 13.381 0.701993H-0.151001ZM7.582 26.91V8.09099H13.382C14.5845 8.04309 15.7838 8.24675 16.903 8.68895C18.0223 9.13115 19.0369 9.80215 19.882 10.659C20.7304 11.5766 21.3875 12.6541 21.8149 13.8285C22.2422 15.0029 22.4313 16.2507 22.371 17.499C22.4313 18.7473 22.2423 19.9951 21.8149 21.1695C21.3876 22.3439 20.7305 23.4214 19.882 24.339C19.0371 25.196 18.0225 25.8672 16.9032 26.3094C15.7839 26.7516 14.5845 26.9551 13.382 26.907H7.582V26.91ZM42.382 20.958H54.464V13.658H42.378V8.09099H55.669V0.701993H34.645V34.302H55.91V26.91H42.378V20.958H42.382ZM78.725 34.302L89.744 0.701993H81.286L73.795 25.422L66.304 0.701993H57.847L68.866 34.302H78.725ZM93.125 34.302H100.858V0.701993H93.125V34.302ZM131.74 32.886C134.233 31.574 136.321 29.6076 137.781 27.198L131.111 23.358C130.381 24.659 129.279 25.7121 127.946 26.382C126.505 27.1262 124.903 27.504 123.282 27.482C121.962 27.5449 120.643 27.3343 119.408 26.8635C118.173 26.3927 117.048 25.6718 116.105 24.746C115.195 23.7791 114.489 22.6393 114.028 21.3942C113.568 20.1492 113.362 18.8242 113.423 17.498C113.362 16.1718 113.568 14.8468 114.028 13.6017C114.489 12.3567 115.195 11.2168 116.105 10.25C117.048 9.32422 118.173 8.60333 119.408 8.13252C120.643 7.6617 121.962 7.45113 123.282 7.51399C124.893 7.49098 126.486 7.86172 127.921 8.59399C129.263 9.2718 130.373 10.3326 131.111 11.642L137.781 7.80199C136.294 5.39746 134.191 3.43378 131.691 2.11399C129.109 0.720899 126.216 0.00268346 123.282 0.0259933C113.503 -0.246007 105.485 7.71699 105.691 17.498C105.483 27.279 113.5 35.245 123.279 34.974C126.229 35.0012 129.138 34.283 131.737 32.886H131.74ZM149.621 20.958H161.703V13.658H149.618V8.09099H162.908V0.701993H141.885V34.302H163.15V26.91H149.618V20.958H149.621Z"
+                            fill="#F0C52E" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="163" height="35" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <ul class="footer__top-list">
+                <li>
+                    <a href="#">
+                        <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.49996 2.33333C7.69704 2.33333 8.66663 3.3775 8.66663 4.66666C8.66663 5.95583 7.69704 7 6.49996 7C5.30288 7 4.33329 5.95583 4.33329 4.66666C4.33329 3.3775 5.30288 2.33333 6.49996 2.33333ZM6.49996 11.6667C6.49996 11.6667 10.8333 11.6667 10.8333 10.5C10.8333 9.1 8.72079 7.58333 6.49996 7.58333C4.27913 7.58333 2.16663 9.1 2.16663 10.5C2.16663 11.6667 6.49996 11.6667 6.49996 11.6667Z"
+                                fill="#FFC600" />
+                        </svg>
+                        Войти
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.91675 5.36667H4.66675V11.0833H2.91675V5.36667ZM6.18342 2.91667H7.81675V11.0833H6.18342V2.91667ZM9.45008 7.58334H11.0834V11.0833H9.45008V7.58334Z"
+                                fill="#FFC600" />
+                        </svg>
+                        Сравнить
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path
+                                    d="M9.86215 2.5217C9.79278 2.43991 9.69341 2.39316 9.58927 2.39316H7.65774V3.4188C7.65774 3.89008 7.25359 4.2735 6.75684 4.2735C6.26008 4.2735 5.85593 3.89008 5.85593 3.4188V2.39316H4.05413V3.4188C4.05413 3.89008 3.64999 4.2735 3.15323 4.2735C2.65648 4.2735 2.25233 3.89008 2.25233 3.4188V2.39316H0.32089C0.216656 2.39316 0.117286 2.43991 0.0479169 2.5217C-0.0215425 2.6035 -0.0544254 2.71256 -0.0425335 2.82145L0.605665 8.78461C0.617737 9.45692 1.14179 9.99999 1.78431 9.99999H8.12584C8.76828 9.99999 9.29233 9.45692 9.30449 8.78452L9.95269 2.82136C9.96449 2.71256 9.93161 2.6035 9.86215 2.5217Z"
+                                    fill="#FFC600" />
+                                <path
+                                    d="M3.15333 3.76068C3.35207 3.76068 3.51369 3.60735 3.51369 3.4188V1.53846C3.51369 1.01051 4.07486 0.683761 4.59477 0.683761H5.49567C6.04288 0.683761 6.39657 1.01923 6.39657 1.53846V3.4188C6.39657 3.60735 6.55829 3.76068 6.75693 3.76068C6.95558 3.76068 7.11729 3.60735 7.11729 3.4188V1.53846C7.11729 0.647009 6.43531 0 5.49567 0H4.59477C3.60126 0 2.79297 0.690171 2.79297 1.53846V3.4188C2.79297 3.60735 2.95459 3.76068 3.15333 3.76068Z"
+                                    fill="#FFC600" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="10" height="10" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Корзина
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__center">
+            <p class="footer__center-info">г. Москва, ул. Строителей, 15</p>
+            <ul class="footer__center-list">
+                <li>
+                    <a href="#" class="footer__center-link">доставка</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__center-link">гарантия</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__center-link">контакты</a>
+                </li>
+            </ul>
+            <a  class="footer__center-info" href="tel:+998906146168">Тел.: +998 (90) 614-61-68</a>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__bottom-stripe stripe"></div>
+            <div class="footer__icons">
+                <img src="img/icons_facebook.svg" alt="facebook">
+                <img src="img/icon_instagram.svg" alt="instagram">
+                <img src="img/icon_twitter.svg" alt="twitter">
+            </div>
+            <div class="footer__html-icon">
+                <img src="img/logo-html.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+    </div>
+
+    <!-- Java Script -->
+    <script src="js/script.min.js"></script>
+
+
+</body>
+
+</html>
